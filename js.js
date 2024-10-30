@@ -47,13 +47,25 @@
 
 //6
 
-const n = 15;
+// const n = 15;
 
-for (let i = 1; i < 18; i++) {
+// for (let i = 1; i < 18; i++) {
 
-  if (i >= n) {
-    break;
-  }
+//   if (i >= n) {
+//     break;
+//   }
   
-  console.log(i);
+//   console.log(i);
+// }
+
+//7
+
+let l = 1;
+while (l <= 20) {
+  if (l % 3 === 0) {
+    l += 1;
+    continue;
+  }
+  console.log(l);
+  l += 1;
 }
